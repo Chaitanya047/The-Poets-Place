@@ -1,0 +1,31 @@
+.post-img {
+    height: 404px;
+    overflow: hidden;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.author-info {
+    text-align: center;
+}
+
+.blog-post-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog-post-content p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.author-info {
+    margin: 12px 0;
+}
+
+.author-info div {
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
