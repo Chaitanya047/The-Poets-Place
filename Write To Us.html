@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,11 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/mobile.css">
     <title>The Poets' Place</title>
+    <script src="js/index.js">
+
+    </script>
 </head>
+
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
@@ -23,7 +28,7 @@
         </div>
         <div class="nav-right">
             <form action="/search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Search Poems">
+                <input class="form-input" required type="text" name="query" placeholder="Search Poems">
                 <button class="btn">Search</button>
             </form>
 
@@ -38,31 +43,32 @@
             <h2>Feel Free to Contact Us</h2>
             <div class="contact-form">
                 <div class="form-box">
-                    <input type="text" placeholder="Enter Your Name">
+                    <input type="text" required id="name" placeholder="Enter Your Name">
                 </div>
                 <div class="form-box">
-                    <input type="text" placeholder="Enter Your Phone Number">
+                    <input type="number" required id="num" placeholder="Enter Your Phone Number">
                 </div>
                 <div class="form-box">
-                    <input type="text" placeholder="Enter Your Email Id">
+                    <input type="email" required id="em" placeholder="Enter Your Email Id">
                 </div>
                 <div class="form-box">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="How may we help you?"></textarea>
+                    <textarea name="" cols="30" rows="10" placeholder="How may we help you?"></textarea>
                 </div>
                 <div class="form-box">
-                    <button class="btn">Submit</button>
+                    <button class="btn" onclick="onSubmit()">Submit</button>
                 </div>
 
             </div>
         </div>
 
     </div>
- 
 
-   
+
+
 
     <div class="footer">
         <p>Copyright &copy; The Poets' Place </p>
     </div>
 </body>
+
 </html>

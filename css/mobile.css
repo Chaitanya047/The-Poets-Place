@@ -36,22 +36,28 @@
   .home-article img {
     width: 70vw;
   }
+
   .form-input {
     width: 50%;
   }
+
   .form-box input,
   textarea {
     width: 66vw;
   }
+
   .row {
     flex-direction: column;
   }
+
   .social {
     padding: 0;
   }
+
   .post-img {
     height: auto;
   }
+
   .adjust-year {
     position: static;
     height: auto;
